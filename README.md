@@ -1,0 +1,3 @@
+## Test Comand
+
+--npm test
