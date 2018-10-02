@@ -1,3 +1,7 @@
-## Test Comand
+# Test Comand
 
---npm test
+-- npm test
+
+## Para una prueba en especifico
+
+-- npm test <nombre_archivo>
