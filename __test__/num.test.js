@@ -11,4 +11,7 @@ describe('Comparando nummeros TestUnit', ()=>{
     test('Menor o igual', ()=>{
         expect( num(2,2)).toBeLessThan(5);
     });
+    test('Num Float', ()=>{
+        expect( num(0.2, 0.2 )).toBeCloseTo(0.4);
+     });
 });
