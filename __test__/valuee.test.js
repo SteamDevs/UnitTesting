@@ -12,4 +12,10 @@ import { isNull,
         test('Es verdadero', ()=>{
             expect( isTrue()).toBeTruthy();
         });
+        test('Es undefined', ()=>{
+            expect( isUndefinded()).toBeUndefined();
+        });
+        test('es Falseo', ()=>{
+            expect( isFalse()).toBeFalsy();
+        });
     });
