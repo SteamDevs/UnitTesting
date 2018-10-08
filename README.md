@@ -9,3 +9,7 @@
 ##Ejecutar el Coverage
 
 -- npm run test:coverage 
+
+##Para escuchar todo
+
+--npm run test:watch
