@@ -9,4 +9,12 @@ describe('Consumiendo un api externo', ()=>{
             done();
         });
     });
+
+    test('Prueba de un resolve', ()=>{
+      return expect(Promise.resolve('holaDevs')).resolves.toBe('holaDevs');
+    });
+
+    test('Prueba de reject', ()=>{
+        return expect(Promise.reject('Fatal Err')).rejects.toBe('Fatal Err');
+    });
 });
